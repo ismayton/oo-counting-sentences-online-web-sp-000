@@ -18,8 +18,8 @@ class String
     counter = 0 
     re = /\w[.!?\\-]/
     string_array = self.split(re)
-    return string_array.length
     binding.pry
+    return string_array.length
   end
   
 end
