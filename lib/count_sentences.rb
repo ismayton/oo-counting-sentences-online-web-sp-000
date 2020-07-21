@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     counter = 0 
-    re = /[.!?](\s|\z)/
+    re = /[.!?\\-](\s|\z)/
     string_array = self.split(re)
     return string_array.length
   end
