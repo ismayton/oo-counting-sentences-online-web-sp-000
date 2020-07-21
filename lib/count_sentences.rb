@@ -19,6 +19,7 @@ class String
     re = /\w[.!?\\-]/
     string_array = self.split(re)
     return string_array.length
+    binding.pry
   end
   
 end
