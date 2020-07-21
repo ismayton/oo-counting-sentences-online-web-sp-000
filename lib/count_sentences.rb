@@ -18,7 +18,7 @@ class String
     counter = 0 
     re = /\w[.!?\\-]/
     string_array = self.split(re)
-    return string_array.length
+    return string_array.length - 1
   end
   
 end
