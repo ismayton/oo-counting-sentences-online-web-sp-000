@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     counter = 0 
-    re = /\w[.!?\\-]/
+    re = /[.!?\\-]/
     string_array = self.split(re)
     binding.pry
     return string_array.length
